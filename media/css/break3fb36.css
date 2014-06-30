@@ -1,0 +1,192 @@
+/* @media (max-width: 482px) */
+
+.w12 {
+        /* width: 248px; */
+        width: 86%;
+    }
+    .container>.row { 
+        width: 100%; 
+        /* max-width:248px; */
+        max-width: 86%; 
+        min-width: 0; 
+        margin: 0 auto; 
+        clear:both; 
+    }
+    .push-two, .push-three, .push-four, .push-five, .push-six, .push-seven, .push-eight, .push-nine, .push-ten { left: auto; }
+    .pull-two, .pull-three, .pull-four, .pull-five, .pull-six, .pull-seven, .pull-eight, .pull-nine, .pull-ten { right: auto; }
+    .row .row .column, .row .row .columns { 
+        padding: 0; 
+    }
+    .column, .columns { 
+        width: auto !important; 
+        float: none; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+    #pageFooter .columns {
+        margin-bottom: 0;
+        padding-top: 1em;
+    }
+    #branding-column, #link-column-one, #link-column-two, #contact-column { 
+        border-bottom: 1px solid #cccccc;
+        padding-bottom: 1em;
+    }
+    #link-column-one>div, #link-column-two>div, #contact-column>div { 
+        padding-left:0;
+    }
+    #pageFooter h2 {
+        margin-top:6px;
+    }
+    .column:last-child, .columns:last-child { 
+        margin-right: 0; 
+        float: none; 
+    }
+    [class*="column"] + [class*="column"]:last-child { 
+        float: left; 
+    }
+    #headerTop .headerSearch {
+        width: 118px;
+    }
+    #headerTop .headerSearchInput {
+        width: 90px;
+    }
+    #headerMenus { width: 80%; }
+    #megaMenu {
+        width: 130px;
+    }
+    #headerMenu,
+    #quickLinks {
+        width: 118px;
+    }
+    footer .columns {
+        height:auto !important;
+        position:relative;
+    }
+    .emailSignup {
+        width: 150px !important;
+    } 
+    
+    a.shareLink, a.shareLink:active, a.shareLink:visited {float:none;}   
+
+    .row .row div:last-child .cta {
+        float: none;
+        vertical-align: top;
+    } 
+    
+#sidebar .cta { vertical-align:top; }             
+    
+/* home page */
+.hpBannerRow .bannerBlock .bannerImg {
+  display:none;
+}  
+
+.hpBannerRow .bannerBlock .bannerText {
+    width: auto;
+    max-width: 305px;
+    margin:0 25px; 
+}                                       
+
+.contact_field {
+    width: 300px;
+}
+
+.contact_field.state_field,
+.contact_field.zip_field {
+	width: 300px;
+	margin-right: 0;
+}
+
+.cta img {
+    width: auto;
+}
+
+/*
+.campaign .mediaPlayer li {
+    width: 276px;
+}
+*/
+
+/* Provider Results */
+.search_filters {    
+    bottom: 3px;
+    z-index: 0;
+    width: 200px;
+}
+
+a.blue_submit {
+} 	    	
+/* END Provider Results */
+
+div.imageContent div.imageholder {
+    float: none;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 0 0 20px;
+}
+
+div.imageContent div.imageholder img {
+    float: none;
+}
+
+/* Secondary Multimedia Module ************/
+.secondaryMediaWrapper {
+    float: left;
+    position: relative;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.closeModal {
+    height: 40px;
+    margin-bottom: 5px;
+    width: 320px;  
+}
+
+.fitToSize {
+    height: 280px;
+    width: 320px;
+}
+
+.hiddenModal {
+    display: none;
+    margin-top: 128px;
+    width: 320px;  
+}
+
+/* iframe slideshow */
+.slideShowContainer iframe, .hiddenModal iframe {
+  width: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: 400px;  
+}
+
+/* END Secondary Multimedia Module ************/
+
+#adHolder, .adOverlay {
+    width: 270px;
+}
+
+.adTwo .adSignUpBtn {
+    margin-left: 12px;
+}
+
+.adClose {
+    float: right;
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+.adOne {
+    background: transparent url( '../img/MyHealth-website-overlay-F-Mobile.jpg' ) no-repeat;
+}
+
+.adTwo {
+    background: transparent url( '../img/MyHealth-website-overlay-GBrown-F-Mobile.jpg' ) no-repeat;
+}
+
+.surveyPopup {
+width: 264px;
+}

@@ -1,0 +1,91 @@
+﻿/* New Donate Tout */
+#newDonateTout {
+    width: 143px;
+}
+
+.newtoutheader {
+    height: 40px;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.newtout {
+    float: left;
+    width: 144px;
+    height: 100px;
+    padding-top: 8px;
+    padding-left: 8px;
+    margin-bottom: 2px;
+}
+
+.newtoutheader h3 {
+    margin-top: 10px;
+    padding-left: 8px;
+}
+
+
+.newtour .hover {
+    opacity: 0.7;
+}
+
+.newtout a {
+    font-family: "Memphis LT W01 Light", serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: normal;
+    opacity: 0.8;
+} 
+
+.newtout a:hover {
+    text-decoration: none;
+    opacity: 1.5;
+} 
+
+
+   .blue {
+        background: url('../img/tout_bg_colors/blue.jpg') repeat-x;
+    }
+
+    .blue a {
+        color: #3a95d3;
+    }
+
+    .gray {
+        background: url('../img/tout_bg_colors/gray.jpg') repeat-x;
+    }
+
+    .gray a {
+        color: #2b6ca4;
+    }
+
+    .green {
+        background: url('../img/tout_bg_colors/green.jpg') repeat-x;
+    }
+
+    .green a {
+        color: #7abc00;
+    }
+
+    .orange {
+        background: url('../img/tout_bg_colors/orange.jpg') repeat-x;
+    }
+
+    .orange a {
+        color: #db7b00;
+    }
+
+    .purple {
+        background: url('../img/tout_bg_colors/purple.jpg') repeat-x;
+    }
+
+    .purple a {
+        color: #6f1a79;
+    }
+
+    .teal {
+        background: url('../img/tout_bg_colors/teal.jpg') repeat-x;
+    }
+
+    .teal a {
+        color: #36a084;
+    }

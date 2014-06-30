@@ -1,0 +1,501 @@
+  .w12 {
+        width: 453px;
+    }
+    body { 
+        -webkit-text-size-adjust: none; 
+        -ms-text-size-adjust: none; 
+        width: 100%; 
+        min-width: 0; 
+        margin-left: 0; 
+        margin-right: 0; 
+        padding-left: 0; 
+        padding-right: 0; 
+    }
+    .container { 
+        min-width: 0; 
+        margin-left: 0; 
+        margin-right: 0; 
+    }
+    .row { 
+        width: 100%; 
+        max-width:453px; 
+        min-width: 0; 
+        margin: 0 auto; 
+        clear:both; 
+    }
+
+    .alignleft, .alignright {
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .column.mobile-first-child, .columns.mobile-first-child { margin-left: 0; }
+    #header-banner {
+        display:none;
+    }
+    /* middle column is now actually 8 instead of it's original 7. So give .seven .eight's attributes 
+    Other columns have changed fundamentally as well... (NOW TRYING TO USE THE class="six mobile-eight columsn" approach)*/
+    
+    .row .mobile-one     { width: 6.8783%; /*4.3%;*/ }
+    .row .mobile-two     { width: 15.34391%; /*13%;*/ }
+    .row .mobile-three   { width: 23.80952%; /* 21.679%; */ }
+    .row .mobile-four    { width: 32.27513%; /* 30.37%; */ }
+    .row .mobile-five    { width: 40.74074%; /* 39.1%; */ }
+    .row .mobile-six     { width: 49.20634%; /* 47.8%; */ }
+    .row .mobile-seven   { width: 57.67195%; /* 56.5%; */ }
+    .row .mobile-eight   { width: 66.13756%; /* 65.2%; */ }
+    .row .mobile-nine    { width: 74.60317%; /* 73.9%; */ }
+    .row .mobile-ten     { width: 83.06878%; /* 82.6%; */ }
+    .row .mobile-eleven  { width: 91.53439%; /* 91.3%; */ }
+    .row .mobile-twelve  { width: 100%; } 
+
+    .mobile-push-two       { left: 16.93121% }
+    .mobile-push-three     { left: 25.39682%; }
+    .mobile-push-four      { left: 33.86243%; }
+    .mobile-push-five      { left: 42.54%; }
+    .mobile-push-six       { left: 50.79364%; }
+    .mobile-push-seven     { left: 59.25925%; }
+    .mobile-push-eight     { left: 66.4%; }
+    .mobile-push-nine      { left: 76.19047%; }
+    .mobile-push-ten       { left: 84.65608%; }
+    
+    .mobile-pull-two       { right: 16.93121% }
+    .mobile-pull-three     { right: 25.39682%; }
+    .mobile-pull-four      { right: 33.86243%; }
+    .mobile-pull-five      { right: 42.32804%; }
+    .mobile-pull-six       { right: 50.79364%; }
+    .mobile-pull-seven     { right: 59.25925%; }
+    .mobile-pull-eight     { right: 67.72486%; }
+    .mobile-pull-nine      { right: 76.19047%; }
+    .mobile-pull-ten       { right: 84.65608%; }
+
+    #main-content   { 
+        margin-left:0;
+    } 
+
+    #sidebar    { 
+        width: 32.27513%;
+    }  
+    
+    /* narrower layouts, or sidebars inside internal areas */
+    #sidebar.sidebarB {
+      width:100%;
+      float: none;
+      clear: both;
+      margin: 0;
+    }    
+
+    
+    #link-column-two {
+        clear:left;
+    }
+    #link-column-two>div {
+        padding-left: 0;
+    }
+    body>header {
+        height: 120px;
+    } 
+    
+    #headerTop .myhealthLink {
+        top: 12px;
+        right: 0px;
+    }
+    
+    #headerTop .headerSearch {
+        top: 38px;  right: 0px;
+    }
+    #menuButtons {
+        display: block;
+        height: 50px;
+        position: relative;   
+        z-index:1000;
+       /* width: 103px;  */
+    }
+        #menuButtons .inner {
+            border-left: 1px solid #CECECE;
+            border-right: 1px solid #CECECE; 
+            padding:0px 10px;
+            color:#005696;
+            cursor: pointer;
+            font-family: Georgia, serif;
+            font-size: 17px;
+            font-style: italic;
+            height: 36px;
+            line-height: 30px;
+            margin: 13px 0 7px 0;
+            text-align: center;
+            text-decoration: none; 
+            float: left;
+        }    
+            #menuButtons .inner:first-child {
+              border-right:none;
+            }
+            #menuButtons .inner .icon {
+                margin: 0 0 2px 12px;
+            }    
+            
+            /* *** */
+            
+            #menuButtons .openedResBtn {
+                background-color: #ffffff;
+                border: none;
+                color: #646464; 
+                padding-top: 4px;
+                top: -3px;
+                position: relative;
+            }
+                #menuButtons .openedResBtn .overlay {
+                    display: block;
+                    
+                    height: 10px;
+                    position: absolute;
+                    background: white;
+                    left: 0;
+                    width: 100%;
+                }
+            
+            .boxshadow #menuButtons .openedResBtn {
+                -moz-ox-shadow:     0px 0px 5px 2px #c5c5c5;
+                -webkit-box-shadow: 0px 0px 5px 2px #c5c5c5;
+                box-shadow:         0px 0px 5px 2px #c5c5c5;  
+            }
+            .no-boxshadow #menuButtons .openedResBtn {
+                border: 1px solid #c5c5c5;
+            } 
+            
+    #headerMenus {
+        background-color: #ffffff;
+        display: none;
+        overflow: hidden;
+        padding: 16px 20px 16px 35px;
+        position: absolute;
+        top: 120px;
+        width: 53%;
+        z-index: 100;
+    } 
+        #headerMenus .w12 {
+            width:auto;
+        }     
+        
+        /* first level in sub menus */ 
+        #headerMenus .w12 li {
+            margin-bottom:14px;
+        }
+        
+        #headerMenus .w12 > ul > li {
+            font-size: 15px; 
+            font-family: Georgia, serif;     
+            line-height: 1.2em; 
+            color: #005696;
+            font-style: italic;
+        } 
+        
+        #headerMenus .w12 ul ul {
+            border-bottom:1px solid #CCC;
+            margin: 15px 0;
+            padding-bottom: 15px;
+        }
+            #headerMenus .w12 ul li:last-child ul {
+                border-bottom:none;
+            }
+        
+        #headerMenus .w12 > ul > li a, #headerMenus .w12 > ul > li a:active, #headerMenus .w12 > ul > li a:visited {
+            color:#005696;
+        }
+        /* 2nd level in sub menus */
+        #headerMenus .w12 > ul > li li{
+            font-size:12px; 
+            font-family: Arial, sans-serif;  
+            font-style:normal;
+        }
+        
+        #headerMenus .w12 > ul > li li a, #headerMenus .w12 > ul > li li a:active, #headerMenus .w12 > ul > li li a:visited {
+            color:#000;
+            
+        }
+        
+    
+    .boxshadow #headerMenus {
+        -moz-ox-shadow:     0px 0px 5px 2px #c5c5c5;
+        -webkit-box-shadow: 0px 0px 5px 2px #c5c5c5;
+        box-shadow:         0px 0px 5px 2px #c5c5c5;
+    }
+    .no-boxshadow #headerMenus {
+        border-bottom: 1px solid #c5c5c5;
+        border-top: 1px solid #c5c5c5;
+    }
+    #headerMenus.explicitlyOpened {
+        display: block;
+    }
+    #megaMenu {
+        border-right: 1px solid #cccccc;
+        display: block;
+        padding: 0;
+        width: 243px;
+    }
+        #megaMenu>li {
+            padding: 0;
+        }
+            #megaMenu>li .label {
+                border-left: none;
+            }
+    #headerMenu,
+    #quickLinks {
+        float: none;
+        position: relative;
+        background:none;
+        border:0;
+        margin:0;
+        padding:0;
+        top:0;
+        left:0;
+        color:#757575;
+    }  
+     #headerMenu #quickLinks a, #headerMenu #quickLinks a:active, #headerMenu #quickLinks a:visited {
+         color:#757575;
+     }
+    
+    /* to do: tear out obsolete css */
+    /*#headerMenus #quickLinks { display:none; }*/
+    #headerMenus > .w12 > ul { display:none; } 
+    
+    #headerMenus .moreLessToggle {
+        color: #000;
+        font-weight: bold;
+        cursor: pointer; 
+    } 
+    #headerMenus .lessLink { display:none; }
+    
+    #headerMenus .postMore {
+        display:none;
+    }
+    
+    #quickLinks {
+        clear: right;
+    }
+        #quickLinks>li {
+            border-left: none;
+            border-right: none;
+            display: block;
+        }
+            #quickLinks>li a {
+                display: block;
+                font-family: Arial, sans-serif;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: bold;
+                height: auto;
+                line-height: 12px;
+                padding: 11px 0 12px 0;
+                text-align: left;
+                text-decoration: none;
+                width: auto;
+            }
+                #quickLinks>li a .icon {
+                    display: none;
+                }
+    #megaMenu>li,
+    #headerMenu>li {
+        display: block;
+        border-left: none;
+    }
+    #headerMenu>li,
+    #quickLinks>li {
+        padding: 0 0 0 11px;
+    }
+        #megaMenu>li .label,
+        #headerMenu>li a {
+            color: #646464;
+            display: block;
+            font-size: 12px;
+            height: auto;
+            padding: 11px 0 12px 0;
+            text-decoration: none;
+        }
+    body>header.secondaryIsOpen #headerMenus,
+    body>header.tertiaryIsOpen #headerMenus,
+    body>header.quaternaryIsOpen #headerMenus {
+        visibility: hidden;
+    }
+
+    #sidenav-column, .mainContentBanner {
+        display:none;
+    }
+    .f-border {
+        height: 0;
+        width: 0;
+    }
+    .icon.downArrow {
+        background-position: -16px 0;
+    }
+    .icon.upArrow {
+        background-position: -24px 0;
+    }     
+
+/* never display this level on mobile */    
+#megaMenuSmallVP ul.tertiary {
+    display:none;
+}
+
+/* last 2 cols in footer */
+#link-column-two h2, #contact-column h2 {
+    margin-top: 0px;
+}
+
+/* home page */
+.hpBannerRow .bannerBlock .bannerImg {
+  display:none;
+}  
+
+.hpBannerRow .bannerBlock .bannerText {
+    left: 0px;
+    padding: 47px 0 0 0; 
+    margin:0 auto; 
+}
+
+.ipPatientStories .bannerBlock .bannerImg {
+    display: none;
+}
+
+@media screen and (max-width: 707px) and (min-width: 454px) {
+  .hpTout {
+    height:140px;
+    font-size:13px;
+  }   
+  
+  .homeContainer .videoRow {
+      position: relative;  
+      padding: 2px 10px!important;
+  }
+  
+  .homeContainer .videoRow img {
+      display:none;
+  } 
+  
+  .homeContainer .videoRow .mediaTime {
+        display: block;
+        position: absolute;
+        bottom: 3px;  
+        right: 10px;  
+  } 
+  .homeContainer .videoRow a {
+          display:block; 
+          margin:3px 0 1.5em 0;  
+          line-height:1.2em;
+  }
+}
+    
+/* template 2 */
+#main-content article .intro .introContent {
+  width: 100%;
+  float: none; 
+  margin-left:0;
+  margin-right:0;
+}
+
+#main-content  article .intro .mediaWrap { 
+  width: 100%;
+  float: none; 
+  margin-left:0;
+  margin-right:0;
+  position: relative;
+  clear: both;
+}                 
+
+#main-content article .intro .mediaWrap .mediaModule {
+  border-bottom:none;
+}                
+
+#main-content .alphaList {
+    max-width:92%;
+}                            
+
+.button {
+   font-size:11px; 
+   padding:6px 10px;
+}
+ 
+.form_group {
+    width:97%;
+    margin-right: 0;
+}      
+
+/* Location Map *****/
+#map_canvas { height:200px; } 
+.locationMap header h1 {
+    float:none;
+    width:100%;
+}
+.locationMap header .menuWrap {
+    float:none;
+    width:100%;
+    margin-bottom:12px;
+}
+/* END Location Map ***/
+
+
+
+.mediaPlayer .posterHolder {
+  height: 110px;
+}
+
+.mediaPlayer .mediaPoster {
+  /*position: static !important;*/
+}
+
+.mediaPlayer img.mediaPoster.fromYouTube {
+    width: 217px;
+    height: 162px;
+    max-width: 217px;
+    max-height: 162px;
+    margin: -81px 0 0 -107px;
+}
+
+/* Provider Results */
+.search_filters {    
+	bottom: -12px;
+}   
+/* END Provider Results */ 
+
+/* Provider Bio */
+.providerBio header .providerInfo {
+    width: 100%;
+    float:none;
+} 
+.providerBio header .providerPhoto {
+    float: none;  
+    margin-bottom:15px;   
+}
+.providerBio #map_canvas {
+    width: auto;
+    float:none;  
+    margin-bottom: 15px;
+} 
+.providerBio .locations .textCol {
+    width: auto;
+    float:none;
+}
+/* END Provider Bio */
+
+/* Multimedia Page */
+    .multimediaPage .mmVideoWrap, .multimediaPage .mmAudioWrap {
+        width:100%;
+        float:none;
+        margin-bottom:25px;
+    } 
+    .multimediaPage a.learnMore  {
+        position:static;
+        margin: 0 0 10px 0;
+        display: block;
+    } 
+    .multimediaPage .jp-audio { width: 300px; }
+    .multimediaPage .jp-seek-bar { width: 245px!important;} 
+    .multimediaPage .jp-interface { position:relative; }
+}
+/* END Multimedia Page ******/
+ 
+/* jplayer audio plugin */
+.jp-seek-bar {
+  width: 398px !important;
+}

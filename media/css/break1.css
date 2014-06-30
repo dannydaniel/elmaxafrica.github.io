@@ -1,0 +1,117 @@
+/* @media (max-width: 1000px)  */
+
+    img {
+        height: auto;
+    }
+    .w12 {
+        width: 708px;
+    }
+    .row { 
+        width: 100%; 
+        max-width:708px; /*min-width: 709px;*/ 
+        margin: 0 auto; 
+        clear:both; 
+    }
+    body>header {
+        height: 131px;
+    }
+    #headerTop .headerSearch {
+        top: 30px;  right: 300px;
+    }
+    #megaMenu>li {
+        white-space: normal;
+    }
+        #megaMenu>li .label {
+            height: 31px;
+        }
+        #megaMenu>li.open .shadow {
+            height: 61px;
+        } 
+        #megaMenu>li.open .overlap {
+            bottom: 11px;
+        }
+            
+    #headerMenu {
+        position: absolute;
+        top: -63px;  right: 176px;
+    }
+    #subMegaMenus {
+        top: 132px;
+    }   
+        #megaMenuSmallVP, #quickLinksSmallVP { display:none; }
+    /* FF hack for inside columns */
+    .row .row .nine {padding-right: 25px;} 
+
+    .youTubePlayerHolder {
+        width: 228px;
+        height: 127px;
+        display: none; /* Use the poster image as a link to YouTube instead of showing the video player */
+    }
+
+.ipPatientStories .bannerBlock .bannerImg {
+    display: none;
+}
+
+.ipPatientStories .bannerBlock .bannerText {
+    width: 100%;
+}  
+
+.ipPatientStories .rslides_tabs li {
+    margin-left: 14px !important;
+}
+ 
+.form_group {
+    width:238px;
+}
+
+    .mediaPlayer .posterHolder {
+      height:127px;
+    }
+    
+    .mediaPlayer img.mediaPoster 
+     {
+         display: block;
+     } 
+    
+.campaign .mediaPlayer ul {
+    margin-left: 0px;
+    clear: both;
+}
+
+.campaign .mediaPlayer p {
+    float: left;
+    clear: both;
+    margin: -2px 0px 10px 0;
+}
+
+.provider_search select, 
+.provider_search input[type=text],
+.provider_search .search_form .blue_submit {
+    clear: left;
+    margin-top: 0px;
+}
+
+/* provider bio page */  
+.providerBio header .providerInfo {
+    width: 225px;
+}
+
+/* Secondary Multimedia Module ************/
+.closeModal {
+    height: 40px;
+    margin-bottom: 5px;
+    width: 500px;  
+}
+
+.fitToSize {
+    height: 300px;
+    width: 500px;
+}
+
+.hiddenModal {
+    display: none;
+    margin-top: 128px;
+    width: 500px;  
+}
+
+/* END Secondary Multimedia Module ************/
